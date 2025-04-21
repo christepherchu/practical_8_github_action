@@ -32,6 +32,7 @@ post {
     { 
         echo 'Cleaning up workspace' 
         deleteDir() // Clean up the workspace after the build 
+        //test changes CICD
     } 
     success { 
         echo 'Build succeeded!!!' // You could add notification steps here 
